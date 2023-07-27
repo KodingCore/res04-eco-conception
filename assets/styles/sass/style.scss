@@ -1,0 +1,291 @@
+html
+{
+    font-size: 18px;
+    body{
+        padding: 0;
+        margin: 0;
+        header
+        {
+            #top-header
+            {
+                width: 100vw;
+                height: 115px;
+                padding-top: 1rem;
+                background-color: rgb(26,27,27);
+                color: rgb(162,162,163);
+                display: flex;
+                justify-content: space-between;
+                #presentation
+                {
+                    margin-top: auto;
+                    margin-bottom: 25px;
+                    margin-left: 13%;
+                    img
+                    {
+                        width: 450px;
+                    }
+                }
+                #contact
+                {
+                    display: flex;
+                    svg
+                    {
+                        margin: auto;
+                    }
+                    svg:first-child
+                    {
+                        color: rgb(95,94,94);
+                    }
+                    img
+                    {
+                        margin: auto;
+                        width:100px;
+                        height: 100px;
+                    }
+                    p
+                    {
+                        margin: auto;
+                    }
+                }
+            }
+            #bottom-header
+            {
+                display: flex;
+                #nav-header
+                {
+                    margin: auto;
+                    ul
+                    {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        li
+                        {
+                            a
+                            {
+                                color: black;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                #search
+                {
+                    margin: auto;
+                    svg
+                    {
+    
+                    }
+                }
+            }
+            #ticker
+            {
+                p
+                {
+    
+                }
+                svg
+                {
+    
+                }
+                span
+                {
+    
+                }
+                h4
+                {
+    
+                }
+            }
+        }
+        #content
+        {
+            #present
+            {
+                div
+                {
+                    img
+                    {
+    
+                    }
+                    div
+                    {
+                        span
+                        {
+    
+                        }
+                        h4
+                        {
+                            a
+                            {
+    
+                            }
+                        }
+                        p
+                        {
+    
+                        }
+                    }
+                }
+                .slider1
+                {
+                    .slide1
+                    {
+    
+                    }
+                    .slide2
+                    {
+    
+                    }
+                    .slide3
+                    {
+    
+                    }
+                    .slide4
+                    {
+    
+                    }
+                    .slide5
+                    {
+    
+                    }
+                }
+            }
+            #news
+            {
+                .right-now
+                {
+                    h3
+                    {
+    
+                    }
+                    .slider2
+                    {
+                        div
+                        {
+                            .fancy-number
+                            {
+    
+                            }
+                            a
+                            {
+                                .image
+                                {
+    
+                                }
+                            }
+                            h4
+                            {
+    
+                            }
+                        }
+                    }
+                }
+                .middle-content
+                {
+                    .articles
+                    {
+                        .article
+                        {
+                            .image
+                            {
+    
+                            }
+                            .author
+                            {
+    
+                            }
+                            .date
+                            {
+    
+                            }
+                            h4
+                            {
+                                a
+                                {
+    
+                                }
+                            }
+                            p
+                            {
+    
+                            }
+                        }
+                    }
+                    .banner
+                    {
+                        img
+                        {
+    
+                        }
+                    }
+                    .videos
+                    {
+                        article
+                        {
+    
+                        }
+                    }
+                    .video
+                    {
+                        #video
+                        {
+    
+                        }
+                        .author
+                        {
+    
+                        }
+                        .date
+                        {
+    
+                        }
+                        h4
+                        {
+                            a
+                            {
+    
+                            }
+                        }
+                        p
+                        {
+    
+                        }
+                    }
+                }
+                .trending
+                {
+                    h3
+                    {
+                        div
+                        {
+                            .author
+                            {
+                            
+                            }
+                            .date
+                            {
+                            
+                            }
+                            h4
+                            {
+                                a
+                                {
+                                
+                                }
+                            }
+                            p
+                            {
+                            
+                            }
+                        }
+                    }
+                }
+            }
+            #opinions
+            {
+    
+            }
+        }
+    }
+}
