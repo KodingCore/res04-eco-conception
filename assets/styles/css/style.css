@@ -91,12 +91,12 @@ html body header #ticker .sentence {
   display: flex;
 }
 html body header #ticker .sentence p {
-  font-size: 20px;
+  font-size: 1rem;
   margin: auto;
   font-weight: bold;
 }
 html body header #ticker .sentence svg {
-  font-size: 20px;
+  font-size: 1rem;
   margin: auto;
 }
 html body header #ticker .infos {
@@ -104,18 +104,43 @@ html body header #ticker .infos {
   display: flex;
 }
 html body header #ticker .infos div {
+  width: 150px;
   margin-right: 1rem;
 }
 html body header #ticker .infos div h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: right;
   margin: 0;
 }
 html body header #ticker .infos div p {
+  font-size: 0.75rem;
   margin-top: 0.5rem;
+  text-align: right;
   text-transform: uppercase;
 }
 html body #content {
   width: 75%;
   margin: auto;
+}
+html body #content #present {
+  margin-top: 1rem;
+}
+html body #content #present div {
+  width: 70%;
+  position: relative;
+}
+html body #content #present div img {
+  width: 100%;
+  position: absolute;
+}
+html body #content #present div div {
+  background-color: white;
+  position: absolute;
+  top: 100px;
+}
+html body #content #present div div span {
+  position: absolute;
+}
+html body #content #news .middle-content .banner img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
